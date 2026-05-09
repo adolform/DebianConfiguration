@@ -110,7 +110,7 @@
 # ClockClassHint="icewm.XClock"
 
 #  Command to run on clock.
-# ClockCommand="xclock -name icewm -title Clock"
+ClockCommand="gsimplecal"
 
 #  Confirm logout.
  ConfirmLogout=0 # 0/1
