@@ -1,0 +1,42 @@
+! Nord Theme para xterm
+xterm*background: #2e3440
+xterm*foreground: #d8dee9
+xterm*cursorColor: #d8dee9
+
+! Black + Dark Grey
+xterm*color0: #3b4252
+xterm*color8: #4c566a
+
+! Red + Bright Red
+xterm*color1: #bf616a
+xterm*color9: #bf616a
+
+! Green + Bright Green
+xterm*color2: #a3be8c
+xterm*color10: #a3be8c
+
+! Yellow + Bright Yellow
+xterm*color3: #ebcb8b
+xterm*color11: #ebcb8b
+
+! Blue + Bright Blue
+xterm*color4: #81a1c1
+xterm*color12: #81a1c1
+
+! Magenta + Bright Magenta
+xterm*color5: #b48ead
+xterm*color13: #b48ead
+
+! Cyan + Bright Cyan
+xterm*color6: #88c0d0
+xterm*color14: #8fbcbb
+
+! Light Grey + White
+xterm*color7: #e5e9f0
+xterm*color15: #eceff4
+
+! Configuración adicional recomendada
+xterm*faceName: Monospace:size=11
+xterm*renderFont: true
+xterm*saveLines: 4096
+xterm*vt100*geometry: 80x24

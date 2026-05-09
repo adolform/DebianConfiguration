@@ -1,0 +1,13 @@
+#/bin/bash
+setxkbmap -layout "us,es" -option "grp:win_space_toggle" &
+picom --backend xrender -b &
+feh --bg-fill /usr/share/wallpapers/homeworld_wallpaper/contents/images/1280x1024.svg &
+idesk &
+nm-applet &
+udiskie --smart-tray &
+volumeicon &
+diodon &
+xpad &
+light-locker --lock-after-screensaver=0 &
+xset s 600 600
+xset dpms 600 600 600 &

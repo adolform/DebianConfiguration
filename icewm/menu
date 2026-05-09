@@ -1,0 +1,50 @@
+# Menú IceWM estilo Windows XP (Herramientas dentro de Accesorios)
+separator
+prog "Administrador de Archivos" system-file-manager pcmanfm
+prog "Alacritty" Alacritty alacritty
+prog "Firefox" firefox-esr firefox-esr
+prog "Google Chrome" google-chrome google-chrome-stable
+    menu "Accesorios" folder {
+   # Submenú Herramientas del sistema dentro de Accesorios
+        menu "Herramientas del sistema" folder {
+	    prog "Adminitrador de Tareas" gnome-system-monitor lxtask	
+            prog "XTerm" xterm xterm
+            prog "BleachBit" bleachbit bleachbit
+            prog "GParted (Admin)" /usr/share/icons/hicolor/16x16/apps/gparted.png xterm -e "pkexec /usr/sbin/gparted"
+            prog "Timeshift" /usr/share/pixmaps/timeshift.png xterm -e pkexec timeshift-gtk
+	    prog "Synaptic" system-software-install xterm -e "pkexec /usr/sbin/synaptic"
+	    prog "GSmartControl" /usr/share/icons/hicolor/48x48/apps/gsmartcontrol.png xterm -e "pkexec /usr/sbin/gsmartcontrol"
+	    prog "Apariencia" preferences-desktop-theme  lxappearance
+	    prog "Monitores" display arandr
+	    
+        }
+        prog "Administrador de Archivos" system-file-manager pcmanfm
+        prog "Alacritty" Alacritty alacritty
+        prog "Mousepad" text-editor mousepad
+	prog "Vim" vim gvim
+        prog "Galculator" galculator galculator
+        prog "XArchiver" xarchiver xarchiver
+        prog "Visor de Imágenes" gpicview gpicview
+    }
+    menu "Internet" folder {
+        prog "Firefox" firefox-esr firefox-esr
+        prog "Google Chrome" google-chrome google-chrome-stable
+        prog "qBittorrent" qbittorrent qbittorrent
+    }
+    menu "Multimedia" folder {
+	prog "Control de Volumen" multimedia-volume-control pavucontrol
+        prog "SMPlayer" smplayer smplayer
+        prog "MPV Media Player" mpv mpv
+	prog "Audacious" audacious audacious
+    }
+    menu "Juegos" folder {
+        prog "DOSBox" dosbox dosbox
+        prog "Crawl Tiles" crawl-tiles crawl-tiles
+        prog "Aisleriot" sol sol
+        prog "Skladnik" skladnik skladnik
+        prog "Xye" xye xye
+        prog "Battle for Wesnoth" wesnoth wesnoth
+        prog "Mines" gnome-mines gnome-mines
+    }
+separator
+prog "Buscar..." system-search fsearch 
