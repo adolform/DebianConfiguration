@@ -1381,7 +1381,7 @@ WorkspaceNames=" 1 ", " 2 ", " 3 ", " 4 "
 # ShowMenuButtonIcon=1 # 0/1
 
 #  Dimension of the small icons.
- SmallIconSize=32 # [8-128]
+ SmallIconSize=16 # [8-128]
 
 #  Name of the status display font.
 # StatusFontName="-misc-dejavu sans mono-bold-r-normal--12-*-*-*-*-*-*-*"
