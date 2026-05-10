@@ -1,6 +1,5 @@
 #/bin/bash
 setxkbmap -layout "us,es" -option "grp:win_space_toggle" &
-picom --backend xrender -b &
 feh --bg-fill /usr/share/wallpapers/homeworld_wallpaper/contents/images/1280x1024.svg &
 idesk &
 nm-applet &
