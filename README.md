@@ -78,11 +78,6 @@
 	sudo apt install icewm lightdm git tlp acpi unattended-upgrades unrar-free  p7zip-full htop btop extrepo arandr network-manager network-manager-gnome pulseaudio alsa-utils volumeicon-alsa pavucontrol udiskie eject idesk feh gsimplecal wget curl fastfetch mc ftp vim irssi newsboat diodon xfe timeshift  bleachbit xpad gparted gsmartcontrol galculator qbittorrent smplayer i3lock scrot imagemagick bluez blueman pulseaudio-module-bluetooth bluez-tools flatpak
 
 
-## Home Desktop Install(pcmanfm)
-	
-	sudo apt install icewm lightdm git tlp acpi unattended-upgrades unrar-free  p7zip-full htop btop extrepo arandr network-manager network-manager-gnome pulseaudio alsa-utils volumeicon-alsa pavucontrol udiskie eject pcmanfm mousepad audacious xarchiver gpiview gsimplecal fsearch lxtask picom wget curl fastfetch mc ftp vim irssi newsboat diodon xfe timeshift  bleachbit xpad gparted gsmartcontrol galculator qbittorrent smplayer i3lock scrot imagemagick bluez blueman pulseaudio-module-bluetooth bluez-tools flatpak
-
-
 ## Games
 
 	sudo apt install crawl-tiles aisleriot skladnik xye wesnoth dosbox gnome-mines
@@ -173,7 +168,12 @@ Debe Contener lo siguiente:
 
 sudo ln -s /opt/deadbeef/bin/deadbeef /usr/bin/deadbeef
 
-xdg-mime default pcmanfm.desktop inode/directory
+
+
+
+
+
+xdg-mime default xfe.desktop inode/directory
 
 
 

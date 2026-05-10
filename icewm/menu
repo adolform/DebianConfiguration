@@ -1,6 +1,6 @@
 # Menú IceWM estilo Windows XP (Herramientas dentro de Accesorios)
 separator
-prog "Administrador de Archivos" system-file-manager pcmanfm
+prog "Administrador de Archivos" system-file-manager xfe
 prog "Xterm" xterm xterm
 prog "Firefox" firefox-esr firefox-esr
 prog "Google Chrome" google-chrome google-chrome-stable
@@ -14,16 +14,14 @@ prog "Google Chrome" google-chrome google-chrome-stable
 	    prog "Synaptic" system-software-install xterm -e "pkexec /usr/sbin/synaptic"
 	    prog "GSmartControl" /usr/share/icons/hicolor/48x48/apps/gsmartcontrol.png xterm -e "pkexec /usr/sbin/gsmartcontrol"
 	    prog "Monitores" display arandr
-	    prog "Look and Feel" lxappearace lxappearance
 	    
         }
-	prog "Administrador de Tareas" lxtask lxtask
-        prog "Administrador de Archivos" system-file-manager pcmanfm
-        prog "Text Editor" text-editor mousepad
+        prog "Administrador de Archivos" system-file-manager xfe
+        prog "Text Editor" text-editor xfw
 	prog "Vim" vim gvim
         prog "Galculator" galculator galculator
-        prog "Visor de Imágenes" gpicview gpicview
-        
+        prog "Visor de Imágenes" xfi xfi
+        prog "Visor de Documentos" atril atril
     }
     menu "Internet" folder {
         prog "Firefox" firefox-esr firefox-esr
@@ -46,4 +44,3 @@ prog "Google Chrome" google-chrome google-chrome-stable
         prog "Mines" gnome-mines gnome-mines
     }
 separator
-prog "Buscar..." system-search fsearch 
