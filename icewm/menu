@@ -14,13 +14,16 @@ prog "Google Chrome" google-chrome google-chrome-stable
 	    prog "Synaptic" system-software-install xterm -e "pkexec /usr/sbin/synaptic"
 	    prog "GSmartControl" /usr/share/icons/hicolor/48x48/apps/gsmartcontrol.png xterm -e "pkexec /usr/sbin/gsmartcontrol"
 	    prog "Monitores" display arandr
+	    prog "Look and Feel" lxappearace lxappearance
 	    
         }
-        prog "Administrador de Archivos" system-file-manager xfe
-        prog "Text Editor" text-editor xfw
+	prog "Administrador de Tareas" lxtask lxtask
+        prog "Administrador de Archivos" system-file-manager pcmanfm
+        prog "Text Editor" text-editor mousepad
 	prog "Vim" vim gvim
         prog "Galculator" galculator galculator
         prog "Visor de Imágenes" gpicview gpicview
+        
     }
     menu "Internet" folder {
         prog "Firefox" firefox-esr firefox-esr
