@@ -18,12 +18,12 @@ TitleButtonsLeft="s"
 TitleButtonsRight="xmir"		# Rollup button displayed
 TitleButtonsSupported="sxmir"		# Rollup button displayed
 
-BorderSizeX=0
-BorderSizeY=0
+BorderSizeX=1
+BorderSizeY=1
 #CornerSizeX=22
 #CornerSizeY=22
-DlgBorderSizeX=0
-DlgBorderSizeY=0
+DlgBorderSizeX=1
+DlgBorderSizeY=1
 
 MenuIconSize=24					# Menu
 SmallIconSize=24 				# Taskbar & Titlebar. Taskbar height = height of linux.xpm. Titlebar height = TitleBarHeight in *.theme
@@ -143,9 +143,9 @@ LabelFontNameXft="NovaMono for Powerline:size=11,sans:size=11"
 # --------------------
 # Desktop Background
 # --------------------
-DesktopBackgroundColor=""		# Prevent IceWM showing a background color
-DesktopBackgroundImage=""		# Prevent IceWM showing a background image
-DesktopBackgroundCenter=0		# 0/1
-DesktopBackgroundScaled=1		# 0/1
-DesktopBackgroundColor=""
-DesktopBackgroundImage="default.png"
+#DesktopBackgroundColor=""		# Prevent IceWM showing a background color
+#DesktopBackgroundImage=""		# Prevent IceWM showing a background image
+#DesktopBackgroundCenter=0		# 0/1
+#DesktopBackgroundScaled=1		# 0/1
+#DesktopBackgroundColor=""
+#DesktopBackgroundImage="default.png"

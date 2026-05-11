@@ -893,7 +893,7 @@ TaskBarShowNetStatus=0 # 0/1
 # TaskBarShowWindowListMenu=1 # 0/1
 
 #  Show titles of windows on task buttons of the task bar.
- TaskBarShowWindowTitles=0 # 0/1
+ TaskBarShowWindowTitles=1 # 0/1
 
 #  Show windows on the taskbar.
 # TaskBarShowWindows=1 # 0/1
