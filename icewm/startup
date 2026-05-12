@@ -6,7 +6,7 @@ nm-applet &
 udiskie --smart-tray &
 volumeicon &
 diodon &
-xpad &
+xpad --hidden&
 light-locker --lock-after-screensaver=0 &
 xset s 600 600
 xset dpms 600 600 600 &
