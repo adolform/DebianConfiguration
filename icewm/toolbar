@@ -2,8 +2,8 @@
 #
 # Place your personal variant in $HOME/.icewm directory.
 
-prog ""  xterm xterm
-prog "" system-file-manager xfe
+prog ""  Alacritty alacritty
+prog "" system-file-manager pcmanfm
 #prog FTE fte fte
 #prog Netscape netscape netscape
 #prog    "Vim" vim /usr/bin/gvim -f
