@@ -75,8 +75,7 @@
 
 ## Home Desktop Install(xfe)
 	
-	sudo apt install icewm lightdm git tlp acpi unattended-upgrades unrar-free  p7zip-full htop btop extrepo arandr network-manager network-manager-gnome pulseaudio alsa-utils volumeicon-alsa pavucontrol udiskie eject idesk feh gsimplecal wget curl fastfetch mc ftp vim irssi newsboat diodon xfe timeshift  bleachbit xpad gparted gsmartcontrol galculator qbittorrent smplayer i3lock scrot imagemagick bluez blueman pulseaudio-module-bluetooth bluez-tools flatpak
-
+	sudo apt install icewm lightdm pcmanfm xarchiver gpicview mousepad lxtask fsearch lxappearance alacritty git tlp acpi unattended-upgrades unrar-free  p7zip-full htop btop extrepo arandr network-manager network-manager-gnome pulseaudio alsa-utils volumeicon-alsa pavucontrol udiskie eject gsimplecal wget curl fastfetch mc ftp vim irssi newsboat diodon timeshift bleachbit xpad gparted gsmartcontrol galculator qbittorrent smplayer i3lock scrot imagemagick bluez blueman pulseaudio-module-bluetooth bluez-tools flatpak
 
 ## Games
 
@@ -168,12 +167,8 @@ Debe Contener lo siguiente:
 
 sudo ln -s /opt/deadbeef/bin/deadbeef /usr/bin/deadbeef
 
-
-
-
-
-
-xdg-mime default xfe.desktop inode/directory
+### Volver PCmanfm el filemanager predeterminado en todo
+xdg-mime default pcmanfm.desktop inode/directory
 
 
 

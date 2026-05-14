@@ -1,9 +1,0 @@
-table Icon
-  Caption: File Manager
-  Command: xfe
-  Icon: /usr/share/icons/hicolor/48x48/apps/xfe.png
-  Width: 48
-  Height: 48
-  X: 50
-  Y: 50
-end
