@@ -1,14 +1,14 @@
 # Menú IceWM estilo Windows XP (Herramientas dentro de Accesorios)
 separator
 prog "Administrador de Archivos" system-file-manager pcmanfm
-prog "Termninal" Alacritty alacritty
+prog "Termninal" terminal xterm
 prog "Firefox" firefox-esr firefox-esr
 prog "Google Chrome" google-chrome google-chrome-stable
     menu "Accesorios" folder {
    # Submenú Herramientas del sistema dentro de Accesorios
         menu "Herramientas del sistema" folder {	
             prog "Monitor de Sistema" utilities-system-monitor lxtask
-            prog "XTerm" xterm xterm
+            prog "Terminal" terminal xterm
             prog "BleachBit" bleachbit bleachbit
             prog "GParted (Admin)" /usr/share/icons/hicolor/16x16/apps/gparted.png xterm -e "pkexec /usr/sbin/gparted"
             prog "Timeshift" /usr/share/pixmaps/timeshift.png xterm -e pkexec timeshift-gtk
