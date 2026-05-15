@@ -1,14 +1,14 @@
 # Menú IceWM estilo Windows XP (Herramientas dentro de Accesorios)
 separator
 prog "Administrador de Archivos" system-file-manager pcmanfm
-prog "Termninal" terminal xterm
+prog "Termninal" terminal lxterminal
 prog "Firefox" firefox-esr firefox-esr
 prog "Google Chrome" google-chrome google-chrome-stable
     menu "Accesorios" folder {
    # Submenú Herramientas del sistema dentro de Accesorios
         menu "Herramientas del sistema" folder {	
             prog "Monitor de Sistema" utilities-system-monitor lxtask
-            prog "Terminal" terminal xterm
+            prog "Xterm" terminal xterm
             prog "BleachBit" bleachbit bleachbit
             prog "GParted (Admin)" /usr/share/icons/hicolor/16x16/apps/gparted.png xterm -e "pkexec /usr/sbin/gparted"
             prog "Timeshift" /usr/share/pixmaps/timeshift.png xterm -e pkexec timeshift-gtk
@@ -21,9 +21,18 @@ prog "Google Chrome" google-chrome google-chrome-stable
         prog "Text Editor" text-editor mousepad
 	prog "Vim" vim gvim
         prog "Galculator" galculator galculator
-        prog "Visor de Imágenes" 
+        prog "Visor de Imágenes" gpicview gpicview
         prog "Visor de Documentos" atril atril
+	prog "Xarchiver" xarchiver xarchiver
     }
+	menu "Libre Office" folder {
+	    prog "LibreOffice (General)" libreoffice libreoffice
+	    prog "Calc" libreoffice-calc localc
+	    prog "Writer" libreoffice-writer lowriter
+	    prog "Impress" libreoffice-impress loimpress
+    	    prog "Draw" libreoffice-draw lodraw
+            prog "Base" libreoffice-base lobase
+        }
     menu "Internet" folder {
         prog "Firefox" firefox-esr firefox-esr
         prog "Google Chrome" google-chrome google-chrome-stable
@@ -33,7 +42,7 @@ prog "Google Chrome" google-chrome google-chrome-stable
 	prog "Control de Volumen" multimedia-volume-control pavucontrol
         prog "SMPlayer" smplayer smplayer
         prog "MPV Media Player" mpv mpv
-		prog "Audacious" audacious audacious
+	prog "Audacious" audacious audacious
     }
     menu "Juegos" folder {
         prog "DOSBox" dosbox dosbox
