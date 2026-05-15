@@ -75,7 +75,7 @@
 
 ## Home Desktop Install(xfe)
 	
-	sudo apt install icewm lightdm pcmanfm papirus-icon-theme xarchiver gpicview mousepad lxtask lxterminal audacious fsearch lxappearance atril git tlp acpi unattended-upgrades unrar-free  p7zip-full htop btop extrepo arandr network-manager network-manager-gnome pulseaudio alsa-utils volumeicon-alsa pavucontrol udiskie eject gsimplecal wget curl fastfetch mc ftp vim irssi newsboat diodon timeshift bleachbit xpad gparted gsmartcontrol galculator qbittorrent smplayer i3lock scrot imagemagick bluez blueman pulseaudio-module-bluetooth bluez-tools flatpak
+	sudo apt install icewm lightdm pcmanfm papirus-icon-theme xarchiver vim-gtk3 gpicview mousepad lxtask lxterminal audacious fsearch lxappearance atril git tlp acpi unattended-upgrades unrar-free  p7zip-full htop btop extrepo arandr network-manager network-manager-gnome pulseaudio alsa-utils volumeicon-alsa pavucontrol udiskie eject gsimplecal wget curl fastfetch mc ftp vim irssi newsboat diodon timeshift bleachbit xpad gparted gsmartcontrol galculator qbittorrent smplayer i3lock scrot imagemagick bluez blueman pulseaudio-module-bluetooth bluez-tools flatpak
 
 ## Games
 
