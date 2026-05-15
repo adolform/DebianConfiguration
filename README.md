@@ -170,7 +170,9 @@ sudo ln -s /opt/deadbeef/bin/deadbeef /usr/bin/deadbeef
 ### Volver PCmanfm el filemanager predeterminado en todo
 xdg-mime default pcmanfm.desktop inode/directory
 
+### Instalar suite de libreoffice
 
+libreoffice libreoffice-l10n-es libreoffice-help-es hunspell-es hunspell-en-us libreoffice-gtk3
 
 
 	
