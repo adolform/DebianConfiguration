@@ -56,3 +56,4 @@ prog "Google Chrome" google-chrome google-chrome-stable
 separator
 prog "Buscar..." search-icon fsearch
 separator
+prog "Apagar" "system-shutdown" systemctl poweroff

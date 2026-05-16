@@ -1,4 +1,5 @@
 #/bin/bash
+picom --config ~/.config/picom/picom.conf -b &
 setxkbmap -layout "us,es" -option "grp:win_space_toggle" &
 pcmanfm --desktop &
 nm-applet &
