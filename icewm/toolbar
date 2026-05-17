@@ -2,8 +2,8 @@
 #
 # Place your personal variant in $HOME/.icewm directory.
 
-prog ""  terminal lxterminal
-prog "" system-file-manager pcmanfm
+prog ""  terminal xterm
+prog "" system-file-manager xfe
 #prog FTE fte fte
 #prog Netscape netscape netscape
 #prog    "Vim" vim /usr/bin/gvim -f

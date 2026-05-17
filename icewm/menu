@@ -1,32 +1,30 @@
 # Menú IceWM estilo Windows XP (Herramientas dentro de Accesorios)
 separator
-prog "Administrador de Archivos" system-file-manager pcmanfm
-prog "Termninal" terminal lxterminal
+prog "Administrador de Archivos" system-file-manager xfe
+prog "Termninal" terminal xterm
 prog "Firefox" firefox-esr firefox-esr
 prog "Google Chrome" google-chrome google-chrome-stable
     menu "Accesorios" folder {
    # Submenú Herramientas del sistema dentro de Accesorios
         menu "Herramientas del sistema" folder {	
-            prog "Monitor de Sistema" utilities-system-monitor lxtask
             prog "Xterm" terminal xterm
             prog "BleachBit" bleachbit bleachbit
             prog "GParted (Admin)" /usr/share/icons/hicolor/16x16/apps/gparted.png xterm -e "pkexec /usr/sbin/gparted"
             prog "Timeshift" /usr/share/pixmaps/timeshift.png xterm -e pkexec timeshift-gtk
-			prog "Synaptic" system-software-install xterm -e "pkexec /usr/sbin/synaptic"
-			prog "GSmartControl" /usr/share/icons/hicolor/48x48/apps/gsmartcontrol.png xterm -e "pkexec /usr/sbin/gsmartcontrol"
-			prog "Monitores" display arandr
-			prog "Apariencia" preferences-desktop-theme lxappearance
+	    prog "Synaptic" system-software-install xterm -e "pkexec /usr/sbin/synaptic"
+	    prog "GSmartControl" /usr/share/icons/hicolor/48x48/apps/gsmartcontrol.png xterm -e "pkexec /usr/sbin/gsmartcontrol"
+	    prog "Monitores" display arandr
         }
-        prog "Administrador de Archivos" system-file-manager pcmanfm
-        prog "Text Editor" text-editor mousepad
+        prog "Administrador de Archivos" system-file-manager xfe
+        prog "Text Editor" text-editor xfw
 	prog "Vim" vim gvim
         prog "Galculator" galculator galculator
-        prog "Visor de Imágenes" gpicview gpicview
+        prog "Visor de Imágenes" xfi xfi
         prog "Visor de Documentos" atril atril
-	prog "Xarchiver" xarchiver xarchiver
+	prog "Archivador" xfp xfp
     }
 	menu "Libre Office" folder {
-	    prog "LibreOffice (General)" libreoffice libreoffice
+	    prog "LibreOffice (General)" office libreoffice
 	    prog "Calc" libreoffice-calc localc
 	    prog "Writer" libreoffice-writer lowriter
 	    prog "Impress" libreoffice-impress loimpress
@@ -53,7 +51,5 @@ prog "Google Chrome" google-chrome google-chrome-stable
         prog "Battle for Wesnoth" wesnoth wesnoth
         prog "Mines" gnome-mines gnome-mines
     }
-separator
-prog "Buscar..." search-icon fsearch
 separator
 prog "Apagar" "system-shutdown" systemctl poweroff
