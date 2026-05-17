@@ -1,7 +1,8 @@
 #/bin/bash
 picom --config ~/.config/picom/picom.conf -b &
 setxkbmap -layout "us,es" -option "grp:win_space_toggle" &
-pcmanfm --desktop &
+idesk &
+#pcmanfm --desktop &
 nm-applet &
 udiskie --smart-tray &
 volumeicon &
