@@ -14,8 +14,8 @@ table Config
   ShadowColor: #000000
   ShadowX: 1
   ShadowY: 1 
-  Bold: true
-  ClickDelay: 300
+  Bold: false
+  ClickDelay: 200
   IconSnap: true
   SnapWidth: 10
   SnapHeight: 10
@@ -41,3 +41,8 @@ table Actions
   Execute[1]: right doubleClk
 end
 
+table Background
+  Color: None
+  Source: None
+  Delay: 1
+end
