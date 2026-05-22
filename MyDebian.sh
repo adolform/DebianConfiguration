@@ -45,6 +45,22 @@ else
     echo "[X] Instalación de Bluetooth omitida."
 fi
 
+# 4. Condicional IF para Flatpak
+read -p "¿Deseas instalar las Flatpak? (s/n): " respuesta
+
+# Convertir la respuesta a minúscula para validar más fácil
+respuesta=$(echo "$respuesta" | tr '[:upper:]' '[:lower:]')
+
+if [ "$respuesta" = "s" ] || [ "$respuesta" = "si" ]; then
+    echo
+    echo "[*] Instalando Flatpak..."
+    apt install flatpak
+    
+else
+    echo
+    echo "[X] Instalación de Flatpak omitida."
+fi
+
 echo
 echo "========================================="
 echo "   Proceso finalizado con éxito."
