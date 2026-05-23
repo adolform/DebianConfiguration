@@ -1,11 +1,2 @@
-Theme="WindowsXP/default.theme"
-#Theme="icedesert/default.theme"
-#Theme="default/default.theme"
-#Theme="metal2/default.theme"
-#Theme="motif/default.theme"
-#Theme="CrystalBlue/default.theme"
-#Theme="win95/default.theme"
-#Theme="Plastik/default.theme"
-#Theme="default/default.theme"
-#Theme="win95/default.theme"
-#Theme="MishIce/default.theme"
+Theme="default/default.theme"
+
