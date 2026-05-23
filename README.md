@@ -75,7 +75,7 @@
 
 ## Home Desktop Install(xfe)
 	
-	sudo apt install icewm lightdm vim-gtk3 xfe idesk feh git tlp acpi unattended-upgrades unrar-free  p7zip-full htop btop extrepo arandr network-manager network-manager-gnome pulseaudio alsa-utils volumeicon-alsa pavucontrol udiskie eject gsimplecal wget curl fastfetch mc ftp vim irssi newsboat diodon timeshift bleachbit xpad gparted gsmartcontrol galculator qbittorrent smplayer i3lock scrot imagemagick bluez blueman pulseaudio-module-bluetooth bluez-tools flatpak
+	Run installation script as Root.
 
 ## Games
 
