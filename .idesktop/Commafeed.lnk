@@ -1,0 +1,8 @@
+table Icon
+  Caption: RSS
+  Command: google-chrome --profile-directory=Default --app-id=pjpkgdcjflcieipdgeleifhigeadgabi
+  Icon: chrome-pjpkgdcjflcieipdgeleifhigeadgabi-Default
+  X: 45
+  Y: 50
+end
+

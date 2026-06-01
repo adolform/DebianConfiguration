@@ -2,7 +2,6 @@
 feh --bg-scale  /home/adolfo/Wallpapers/icemountain.jpg &
 setxkbmap -layout "us,es" -option "grp:win_space_toggle" &
 idesk &
-nm-applet &
 blueman-applet  &
 udiskie --smart-tray &
 volumeicon &
