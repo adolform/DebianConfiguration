@@ -1,5 +1,5 @@
 #/bin/bash
-feh --bg-scale  /home/adolfo/Descargas/batman.jpg &
+feh --bg-scale  /home/adolfo/Wallpapers/icemountain.jpg &
 setxkbmap -layout "us,es" -option "grp:win_space_toggle" &
 idesk &
 nm-applet &
@@ -9,5 +9,5 @@ volumeicon &
 diodon &
 xpad &
 light-locker --lock-after-screensaver=0 &
-xset s 600 600
-xset dpms 600 600 600 &
+xset s 300 300
+xset dpms 300 300 300 &

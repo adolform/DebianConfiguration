@@ -17,24 +17,35 @@ prog "Google Chrome" google-chrome google-chrome-stable
         }
         prog "Administrador de Archivos" system-file-manager xfe
         prog "Text Editor" text-editor xfw
-	prog "Vim" vim gvim
         prog "Galculator" galculator galculator
         prog "Visor de Imágenes" xfi xfi
         prog "Visor de Documentos" atril atril
 	prog "Archivador" xfp xfp
+	prog "LocalSend" localsend flatpak run org.localsend.localsend_app
     }
+	menu "Desarrollo" folder {
+	    prog "Vim" vim gvim
+	    prog "Codium" vscodium codium
+        prog "Sqlite Browser" sqlitebrowser sqlitebrowser
+	    prog "FileZilla" filezilla filezilla
+	    prog "putty" putty putty    
+        }
 	menu "LibreOffice" folder {
-	    prog "LibreOffice (General)" office libreoffice
+	    prog "LibreOffice (General)" libreoffice libreoffice
 	    prog "Calc" libreoffice-calc localc
 	    prog "Writer" libreoffice-writer lowriter
 	    prog "Impress" libreoffice-impress loimpress
-            prog "Draw" libreoffice-draw lodraw
-            prog "Base" libreoffice-base lobase
+        prog "Draw" libreoffice-draw lodraw
+        prog "Base" libreoffice-base lobase
+        prog "Math" libreoffice-math lomath
         }
     menu "Internet" folder {
         prog "Firefox" firefox-esr firefox-esr
         prog "Google Chrome" google-chrome google-chrome-stable
+	prog "Thunderbird" thunderbird thunderbird
+    prog "Liferea" liferea liferea
         prog "qBittorrent" qbittorrent qbittorrent
+
     }
     menu "Multimedia" folder {
 	prog "Control de Volumen" multimedia-volume-control pavucontrol
@@ -43,6 +54,7 @@ prog "Google Chrome" google-chrome google-chrome-stable
 	prog "Audacious" audacious audacious
     }
     menu "Juegos" folder {
+	prog "Lutris" lutris flatpak run net.lutris.Lutris
         prog "DOSBox" dosbox dosbox
         prog "Crawl Tiles" crawl-tiles crawl-tiles
         prog "Aisleriot" sol sol
@@ -50,6 +62,7 @@ prog "Google Chrome" google-chrome google-chrome-stable
         prog "Xye" xye xye
         prog "Battle for Wesnoth" wesnoth wesnoth
         prog "Mines" gnome-mines gnome-mines
+	prog "Proton Plus" proton flatpak run com.vysp3r.ProtonPlus
     }
 separator
 prog "Apagar" "system-shutdown" systemctl poweroff

@@ -11,6 +11,7 @@
 key "Alt+Ctrl+t"            x-terminal-emulator
 key "Alt+Ctrl+b"            xdg-open about:blank
 key "Alt+Ctrl+s"            xdg-open https://www.google.com
+key "Alt+Ctrl+f"            xfe
 
 key "Super+KP_Subtract"     amixer sset Master 5%-
 key "Super+KP_Add"          amixer sset Master 5%+

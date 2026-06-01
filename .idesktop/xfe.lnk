@@ -1,7 +1,8 @@
 table Icon
-  Caption: Xfe Manager
+  Caption: File Manager
   Command: xfe
   Icon: /usr/share/icons/hicolor/48x48/apps/xfe.xpm
-  X: 50
-  Y: 50
+  X: 45
+  Y: 9
 end
+

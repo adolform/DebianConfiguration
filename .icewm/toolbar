@@ -2,7 +2,7 @@
 #
 # Place your personal variant in $HOME/.icewm directory.
 
-prog ""  terminal xterm
+prog ""  terminal alacritty
 prog "" system-file-manager xfe
 #prog FTE fte fte
 #prog Netscape netscape netscape

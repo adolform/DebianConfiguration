@@ -20,7 +20,8 @@ echo
 
 # 2. Instalación de programas generales
 echo "[*] Instalando programas base..."
-sudo apt install icewm slim vim-gtk3 xfe idesk feh git tlp acpi unattended-upgrades unrar-free curl wget  p7zip-full htop btop extrepo arandr network-manager network-manager-gnome pulseaudio alsa-utils volumeicon-alsa pavucontrol udiskie eject gsimplecal wget curl fastfetch mc ftp vim irssi newsboat diodon timeshift bleachbit xpad gparted gsmartcontrol galculator qbittorrent smplayer i3lock scrot imagemagick
+sudo apt install icewm slim vim-gtk3 xfe idesk feh git tlp acpi unattended-upgrades unrar-free curl wget  p7zip-full htop btop extrepo arandr network-manager network-manager-gnome pulseaudio alsa-utils volumeicon-alsa pavucontrol udiskie eject gsimplecal wget curl fastfetch mc ftp vim irssi newsboat diodon timeshift bleachbit xpad gparted gsmartcontrol galculator qbittorrent smplayer i3lock scrot imagemagick synaptic
+allacritty thunderbird papirus-icon-theme libreoffice libreoffice-l10n-es libreoffice-help-es hunspell-es hunspell-en-us libreoffice-gtk3
 echo "[OK] Programas base completados."
 echo
 

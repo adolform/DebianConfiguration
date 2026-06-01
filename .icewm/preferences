@@ -893,7 +893,7 @@ TaskBarShowNetStatus=0 # 0/1
 # TaskBarShowWindowListMenu=1 # 0/1
 
 #  Show titles of windows on task buttons of the task bar.
- TaskBarShowWindowTitles=1 # 0/1
+ TaskBarShowWindowTitles=0 # 0/1
 
 #  Show windows on the taskbar.
 # TaskBarShowWindows=1 # 0/1
@@ -1327,7 +1327,7 @@ WorkspaceNames=" 1 ", " 2 ", " 3 ", " 4 "
 # MenuFontNameXft="DejaVu Sans:size=10:bold,Sans:size=10:bold,Sans:size=10"
 
 #  Menu icon size.
-# MenuIconSize=16 # [8-128]
+ MenuIconSize=32 # [8-128]
 
 #  Name of the normal button font.
 # NormalButtonFontName="-misc-dejavu sans-medium-r-normal--12-*-*-*-*-*-*-*"
@@ -1381,7 +1381,7 @@ WorkspaceNames=" 1 ", " 2 ", " 3 ", " 4 "
 # ShowMenuButtonIcon=1 # 0/1
 
 #  Dimension of the small icons.
- SmallIconSize=16 # [8-128]
+ SmallIconSize=32 # [8-128]
 
 #  Name of the status display font.
 # StatusFontName="-misc-dejavu sans mono-bold-r-normal--12-*-*-*-*-*-*-*"
@@ -1474,10 +1474,10 @@ WorkspaceNames=" 1 ", " 2 ", " 3 ", " 4 "
 # TrayDrawBevel=0 # 0/1
 
 #  Maximum scaled height of tray icons.
-# TrayIconMaxHeight=24 # [16-128]
+TrayIconMaxHeight=32 # [16-128]
 
 #  Maximum scaled width of tray icons.
-# TrayIconMaxWidth=32 # [16-128]
+TrayIconMaxWidth=32 # [16-128]
 
 #
 # icewmbg preferences
