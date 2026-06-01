@@ -1,7 +1,7 @@
 # Menú IceWM estilo Windows XP (Herramientas dentro de Accesorios)
 separator
 prog "Administrador de Archivos" system-file-manager xfe
-prog "Termninal" terminal alacritty
+prog "Termninal" terminal xterm
 prog "Firefox" firefox-esr firefox-esr
 prog "Google Chrome" google-chrome google-chrome-stable
     menu "Accesorios" folder {
@@ -11,47 +11,36 @@ prog "Google Chrome" google-chrome google-chrome-stable
             prog "BleachBit" bleachbit bleachbit
             prog "GParted (Admin)" /usr/share/icons/hicolor/16x16/apps/gparted.png xterm -e "pkexec /usr/sbin/gparted"
             prog "Timeshift" /usr/share/pixmaps/timeshift.png xterm -e pkexec timeshift-gtk
-	    prog "Synaptic" system-software-install xterm -e "pkexec /usr/sbin/synaptic"
-	    prog "GSmartControl" /usr/share/icons/hicolor/48x48/apps/gsmartcontrol.png xterm -e "pkexec /usr/sbin/gsmartcontrol"
-	    prog "Monitores" display arandr
+	        prog "Synaptic" system-software-install xterm -e "pkexec /usr/sbin/synaptic"
+	        prog "GSmartControl" /usr/share/icons/hicolor/48x48/apps/gsmartcontrol.png xterm -e "pkexec /usr/sbin/gsmartcontrol"
+	        prog "Monitores" display arandr
         }
         prog "Administrador de Archivos" system-file-manager xfe
         prog "Text Editor" text-editor xfw
         prog "Galculator" galculator galculator
         prog "Visor de Imágenes" xfi xfi
         prog "Visor de Documentos" atril atril
-	prog "Archivador" xfp xfp
-	prog "LocalSend" localsend flatpak run org.localsend.localsend_app
+	    prog "Archivador" xfp xfp
+	    prog "LocalSend" localsend flatpak run org.localsend.localsend_app
     }
 	menu "Desarrollo" folder {
 	    prog "Vim" vim gvim
-	    prog "Codium" vscodium codium
         prog "Sqlite Browser" sqlitebrowser sqlitebrowser
 	    prog "FileZilla" filezilla filezilla
 	    prog "putty" putty putty    
         }
-	menu "LibreOffice" folder {
-	    prog "LibreOffice (General)" libreoffice libreoffice
-	    prog "Calc" libreoffice-calc localc
-	    prog "Writer" libreoffice-writer lowriter
-	    prog "Impress" libreoffice-impress loimpress
-        prog "Draw" libreoffice-draw lodraw
-        prog "Base" libreoffice-base lobase
-        prog "Math" libreoffice-math lomath
-        }
     menu "Internet" folder {
         prog "Firefox" firefox-esr firefox-esr
         prog "Google Chrome" google-chrome google-chrome-stable
-	prog "Thunderbird" thunderbird thunderbird
-    prog "Liferea" liferea liferea
+        prog "Liferea" liferea liferea
         prog "qBittorrent" qbittorrent qbittorrent
 
     }
     menu "Multimedia" folder {
-	prog "Control de Volumen" multimedia-volume-control pavucontrol
+	    prog "Control de Volumen" multimedia-volume-control pavucontrol
         prog "SMPlayer" smplayer smplayer
         prog "MPV Media Player" mpv mpv
-	prog "Audacious" audacious audacious
+	    prog "Audacious" audacious audacious
     }
     menu "Juegos" folder {
 	prog "Lutris" lutris flatpak run net.lutris.Lutris
