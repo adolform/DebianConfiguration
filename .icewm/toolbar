@@ -4,8 +4,4 @@
 
 prog ""  terminal alacritty
 prog "" system-file-manager xfe
-#prog FTE fte fte
-#prog Netscape netscape netscape
-#prog    "Vim" vim /usr/bin/gvim -f
-prog    "" ! firefox-esr
 prog    "" ! google-chrome-stable
