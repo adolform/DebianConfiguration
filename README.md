@@ -83,7 +83,7 @@
 
 ## Development
 
-	sudo apt install emacs default-jdk default-jre geany python3-pip nodejs gdb build-essential sqlite3 sqlitebrowser filezilla putty putty-tools
+	sudo apt install default-jdk default-jre python3-venv cmake npm python3-pip nodejs gdb build-essential sqlite3 sqlitebrowser filezilla putty putty-tools
 	
 ## Crear Snapshot "Clean Install" ejecutando:
 
