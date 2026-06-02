@@ -872,7 +872,7 @@ ClockCommand="gsimplecal"
  TaskBarShowMailboxStatus=0 # 0/1
 
 #  Show network status on task bar.
-TaskBarShowNetStatus=0 # 0/1
+TaskBarShowNetStatus=1 # 0/1
 
 #  Show 'show desktop' button on taskbar (value of 2 to put after the clock)
  TaskBarShowShowDesktopButton=2 # [0-2]
