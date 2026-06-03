@@ -25,12 +25,13 @@ prog "Google Chrome" google-chrome google-chrome-stable
     }
 	menu "Desarrollo" folder {
 	    prog "Vim" vim gvim
+        prog "Codium" vscodium codium
         prog "Sqlite Browser" sqlitebrowser sqlitebrowser
 	    prog "FileZilla" filezilla filezilla
 	    prog "putty" putty putty    
         }
     menu "Internet" folder {
-        prog "librewolf" librewolf librewolf
+        prog "Librewolf" librewolf librewolf
         prog "Google Chrome" google-chrome google-chrome-stable
         prog "Liferea" liferea liferea
         prog "qBittorrent" qbittorrent qbittorrent
