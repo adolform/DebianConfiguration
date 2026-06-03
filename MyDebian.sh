@@ -20,7 +20,7 @@ echo
 
 # 2. Instalación de programas generales
 echo "[*] Instalando programas base..."
-sudo apt install vim-gtk3 xfe idesk feh git tlp acpi unattended-upgrades unrar-free curl wget  p7zip-full htop btop extrepo arandr network-manager pulseaudio alsa-utils volumeicon-alsa pavucontrol udiskie eject gsimplecal wget curl fastfetch mc ftp vim irssi newsboat diodon mutt timeshift bleachbit xpad gparted gsmartcontrol galculator qbittorrent smplayer i3lock scrot imagemagick synaptic papirus-icon-theme
+sudo apt install vim-gtk3 xfe idesk feh git tlp acpi unattended-upgrades unrar-free curl wget  p7zip-full htop btop extrepo arandr network-manager pulseaudio alsa-utils volumeicon-alsa pavucontrol udiskie eject gsimplecal wget curl fastfetch mc ftp vim irssi newsboat diodon mutt timeshift bleachbit xpad gparted gsmartcontrol galculator qbittorrent smplayer i3lock scrot imagemagick synaptic papirus-icon-theme liferea
 echo "[OK] Programas base completados."
 echo
 
@@ -61,6 +61,25 @@ else
     echo
     echo "[X] Instalación de Flatpak omitida."
 fi
+
+# 5. Condicional IF para Dev Tools
+read -p "¿Deseas instalar las Dev Tools? (s/n): " respuesta
+
+# Convertir la respuesta a minúscula para validar más fácil
+respuesta=$(echo "$respuesta" | tr '[:upper:]' '[:lower:]')
+
+if [ "$respuesta" = "s" ] || [ "$respuesta" = "si" ]; then
+    echo
+    echo "[*] Instalando Dev Tools..."
+    sudo apt install default-jdk default-jre python3-venv cmake npm python3-pip nodejs gdb build-essential sqlite3 sqlitebrowser filezilla putty putty-tools
+    
+else
+    echo
+    echo "[X] Instalación de Dev Tools omitida."
+fi
+
+
+
 
 echo
 echo "========================================="
