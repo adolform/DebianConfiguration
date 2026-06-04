@@ -15,7 +15,7 @@ sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/debian/
 
 # 4. ACtualizar repositorios de APT
 echo "[4/5] Actualizando los repositorios de APT..."
-sudo apt update
+sudo apt update -y
 
 # 5. Instalando WineHQ
 echo "[5/5] Instalando WineHQ Estable y sus dependencias..."

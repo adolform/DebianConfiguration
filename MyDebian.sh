@@ -20,7 +20,7 @@ echo
 
 # 2. Instalación de programas generales
 echo "[*] Instalando programas base..."
-sudo apt install vim-gtk3 xfe idesk feh git tlp acpi unattended-upgrades unrar-free curl wget  p7zip-full htop btop extrepo arandr network-manager pulseaudio alsa-utils volumeicon-alsa pavucontrol udiskie eject gsimplecal wget curl fastfetch mc ftp vim irssi newsboat diodon mutt timeshift bleachbit xpad gparted gsmartcontrol galculator qbittorrent smplayer i3lock scrot imagemagick synaptic papirus-icon-theme liferea
+sudo apt install vim-gtk3 xfe idesk feh git tlp acpi unattended-upgrades unrar-free curl wget  p7zip-full htop btop extrepo arandr network-manager pulseaudio alsa-utils volumeicon-alsa pavucontrol udiskie eject gsimplecal wget curl fastfetch mc ftp vim irssi newsboat diodon mutt timeshift bleachbit xpad gparted gsmartcontrol galculator qbittorrent smplayer i3lock scrot imagemagick synaptic papirus-icon-theme liferea -y
 echo "[OK] Programas base completados."
 echo
 
@@ -34,7 +34,7 @@ if [ "$respuesta" = "s" ] || [ "$respuesta" = "si" ]; then
     echo
     echo "[*] Instalando componentes de Bluetooth..."
     # Instala el stack de bluetooth, utilidades de consola y el gestor grafico Blueman
-    apt install bluez blueman pulseaudio-module-bluetooth bluez-tools
+    apt install bluez blueman pulseaudio-module-bluetooth bluez-tools -y
     
     echo "[*] Habilitando el servicio de Bluetooth..."
     systemctl enable bluetooth
@@ -54,7 +54,7 @@ respuesta=$(echo "$respuesta" | tr '[:upper:]' '[:lower:]')
 if [ "$respuesta" = "s" ] || [ "$respuesta" = "si" ]; then
     echo
     echo "[*] Instalando Flatpak..."
-    apt install flatpak
+    apt install flatpak -y
     flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
     
 else
@@ -71,7 +71,7 @@ respuesta=$(echo "$respuesta" | tr '[:upper:]' '[:lower:]')
 if [ "$respuesta" = "s" ] || [ "$respuesta" = "si" ]; then
     echo
     echo "[*] Instalando Dev Tools..."
-    sudo apt install default-jdk default-jre python3-venv cmake npm python3-pip nodejs gdb build-essential sqlite3 sqlitebrowser filezilla putty putty-tools
+    sudo apt install default-jdk default-jre python3-venv cmake npm python3-pip nodejs gdb build-essential sqlite3 sqlitebrowser filezilla putty putty-tools -y
     
 else
     echo
@@ -87,15 +87,12 @@ respuesta=$(echo "$respuesta" | tr '[:upper:]' '[:lower:]')
 if [ "$respuesta" = "s" ] || [ "$respuesta" = "si" ]; then
     echo
     echo "[*] Instalando Dev Tools..."
-    sudo apt install crawl-tiles aisleriot skladnik xye wesnoth dosbox gnome-mines
+    apt install crawl-tiles aisleriot skladnik xye wesnoth dosbox gnome-mines -y
     
 else
     echo
     echo "[X] Instalación de Juegos omitida."
 fi
-
-
-
 echo
 echo "========================================="
 echo "   Proceso finalizado con éxito."
