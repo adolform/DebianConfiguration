@@ -78,6 +78,21 @@ else
     echo "[X] Instalación de Dev Tools omitida."
 fi
 
+# 6. Condicional IF para Juegos lml
+read -p "¿Deseas instalar las Dev Tools? (s/n): " respuesta
+
+# Convertir la respuesta a minúscula para validar más fácil
+respuesta=$(echo "$respuesta" | tr '[:upper:]' '[:lower:]')
+
+if [ "$respuesta" = "s" ] || [ "$respuesta" = "si" ]; then
+    echo
+    echo "[*] Instalando Dev Tools..."
+    sudo apt install crawl-tiles aisleriot skladnik xye wesnoth dosbox gnome-mines
+    
+else
+    echo
+    echo "[X] Instalación de Juegos omitida."
+fi
 
 
 
