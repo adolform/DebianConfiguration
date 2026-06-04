@@ -2,6 +2,6 @@
 #
 # Place your personal variant in $HOME/.icewm directory.
 
-prog ""  terminal alacritty
+prog ""  terminal xterm
 prog "" system-file-manager xfe
 prog    "" ! google-chrome-stable

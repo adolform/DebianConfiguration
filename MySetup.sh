@@ -2,6 +2,7 @@
 
 # 1. Define las parejas de rutas: "ORIGEN DESTINO"
 ENLACES=(
+    "$HOME/DebianConfiguration/.vimrc $HOME/.vimrc"
     "$HOME/DebianConfiguration/.ideskrc $HOME/.ideskrc"
     "$HOME/DebianConfiguration/.Xresources $HOME/.Xresources"
     "$HOME/DebianConfiguration/Wallpapers $HOME/"

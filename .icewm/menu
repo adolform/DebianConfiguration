@@ -31,7 +31,7 @@ prog "Google Chrome" google-chrome google-chrome-stable
 	    prog "putty" putty putty    
         }
     menu "Internet" folder {
-        prog "Librewolf" librewolf librewolf
+        prog "firefox-esr" firefox-esr firefox-esr
         prog "Google Chrome" google-chrome google-chrome-stable
         prog "Liferea" liferea liferea
         prog "qBittorrent" qbittorrent qbittorrent

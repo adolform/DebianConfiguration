@@ -79,7 +79,7 @@ else
 fi
 
 # 6. Condicional IF para Juegos lml
-read -p "¿Deseas instalar las Dev Tools? (s/n): " respuesta
+read -p "¿Deseas instalar los juegos? (s/n): " respuesta
 
 # Convertir la respuesta a minúscula para validar más fácil
 respuesta=$(echo "$respuesta" | tr '[:upper:]' '[:lower:]')
