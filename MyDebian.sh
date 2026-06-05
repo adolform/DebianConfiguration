@@ -20,7 +20,7 @@ echo
 
 # 2. Instalación de programas generales
 echo "[*] Instalando programas base..."
-sudo apt install vim-gtk3 xfe idesk feh git tlp acpi unattended-upgrades unrar-free curl wget p7zip-full htop btop extrepo arandr network-manager pulseaudio alsa-utils volumeicon-alsa pavucontrol udiskie eject gsimplecal wget curl fastfetch mc ftp vim irssi newsboat diodon mutt timeshift bleachbit xpad gparted gsmartcontrol galculator qbittorrent smplayer i3lock scrot imagemagick synaptic papirus-icon-theme liferea -y
+sudo apt install vim-gtk3 xfe idesk feh git tlp acpi unattended-upgrades unrar-free curl wget p7zip-full htop btop extrepo arandr network-manager pulseaudio alsa-utils volumeicon-alsa pavucontrol udiskie eject gsimplecal wget curl fastfetch mc ftp vim irssi newsboat diodon mutt timeshift bleachbit xpad gparted gsmartcontrol galculator qbittorrent smplayer i3lock scrot imagemagick synaptic papirus-icon-theme liferea innoextract -y
 echo "[OK] Programas base completados."
 echo
 

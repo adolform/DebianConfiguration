@@ -1,6 +1,6 @@
 #/bin/bash
 feh --bg-scale  /home/adolfo/Wallpapers/icemountain.jpg &
-setxkbmap -layout "us,es" -option "grp:win_space_toggle" &
+setxkbmap -layout "us,latam" -option "grp:win_space_toggle" &
 idesk &
 blueman-applet  &
 udiskie --smart-tray &

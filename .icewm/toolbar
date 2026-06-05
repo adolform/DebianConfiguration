@@ -4,4 +4,4 @@
 
 prog ""  terminal xterm
 prog "" system-file-manager xfe
-prog    "" ! google-chrome-stable
+prog    "" ! firefox-esr
