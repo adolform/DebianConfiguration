@@ -40,3 +40,5 @@ xterm*faceName: Monospace:size=11
 xterm*renderFont: true
 xterm*saveLines: 4096
 xterm*vt100*geometry: 80x24
+
+Xcursor.size: 16
