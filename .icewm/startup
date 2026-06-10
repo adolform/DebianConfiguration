@@ -9,6 +9,6 @@ xpad &
 light-locker --lock-after-screensaver=0 &
 xset s 300 300
 xset dpms 300 300 300 &
-#sleep 2
-#sh ~/.screenlayout/Home.sh &
+sleep 2
+sh ~/.screenlayout/Home.sh &
 feh --bg-scale  /home/adolfo/Wallpapers/icemountain.jpg &

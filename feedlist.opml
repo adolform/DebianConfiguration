@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<opml version="1.0">
+  <head>
+    <title>Liferea Feed List Export</title>
+  </head>
+  <body>
+    <outline title="Mis Feeds" text="Mis Feeds" description="Mis Feeds" type="folder">
+      <outline title="Open Source y Linux" text="Open Source y Linux" description="Open Source y Linux" type="folder">
+        <outline title="FOSS Linux" text="FOSS Linux" description="FOSS Linux" type="rss" xmlUrl="https://www.fosslinux.com/feed" htmlUrl="https://www.fosslinux.com"/>
+        <outline title="It's FOSS" text="It's FOSS" description="It's FOSS" type="rss" xmlUrl="https://news.itsfoss.com/feed/" htmlUrl="https://itsfoss.com/"/>
+        <outline title="Linuxiac" text="Linuxiac" description="Linuxiac" type="rss" xmlUrl="https://linuxiac.com/feed/" htmlUrl="https://linuxiac.com"/>
+        <outline title="LinuxLinks" text="LinuxLinks" description="LinuxLinks" type="rss" xmlUrl="https://www.linuxlinks.com/feed/" htmlUrl="https://www.linuxlinks.com/"/>
+        <outline title="OMG! Ubuntu!" text="OMG! Ubuntu!" description="OMG! Ubuntu!" type="rss" xmlUrl="https://feeds.feedburner.com/d0od" htmlUrl="https://www.omgubuntu.co.uk/"/>
+        <outline title="Planet Debian" text="Planet Debian" description="Planet Debian" type="rss" xmlUrl="https://planet.debian.org/rss20.xml" htmlUrl="https://planet.debian.org/"/>
+        <outline title="Tecmint" text="Tecmint" description="Tecmint" type="rss" xmlUrl="https://www.tecmint.com/feed/" htmlUrl="https://www.tecmint.com"/>
+      </outline>
+      <outline title="Noticias y Deportes" text="Noticias y Deportes" description="Noticias y Deportes" type="folder">
+        <outline title="BBC Future" text="BBC Future" description="BBC Future" type="rss" xmlUrl="https://www.bbc.com/future/feed.rss" htmlUrl="https://www.bbc.com/"/>
+        <outline title="BBC Mundo" text="BBC Mundo" description="BBC Mundo" type="rss" xmlUrl="http://newsrss.bbc.co.uk/rss/spanish/news/rss.xml" htmlUrl="https://www.bbc.com/mundo"/>
+        <outline title="BBC News" text="BBC News" description="BBC News" type="rss" xmlUrl="http://newsrss.bbc.co.uk/rss/newsonline_world_edition/front_page/rss.xml" htmlUrl="https://www.bbc.co.uk/news"/>
+        <outline title="Fórmula F1" text="Fórmula F1" description="Fórmula F1" type="rss" xmlUrl="http://www.formulaf1.es/feed/" htmlUrl="https://www.formulaf1.es/"/>
+        <outline title="Fórmula1 - Motorpasión" text="Fórmula1 - Motorpasión" description="Fórmula1 - Motorpasión" type="rss" xmlUrl="http://www.motorpasion.com/categoria/formula1/rss2.xml" htmlUrl="https://www.motorpasion.com"/>
+        <outline title="Motorsport.com - Fórmula 1 - Historias" text="Motorsport.com - Fórmula 1 - Historias" description="Motorsport.com - Fórmula 1 - Historias" type="rss" xmlUrl="https://lat.motorsport.com/rss/f1/news/" htmlUrl="https://lat.motorsport.com/f1/news/?utm_source=RSS&amp;utm_medium=referral&amp;utm_campaign=RSS-F1&amp;utm_term=News&amp;utm_content=lat"/>
+        <outline title="Muy Interesante" text="Muy Interesante" description="Muy Interesante" type="rss" xmlUrl="http://feeds.feedburner.com/Muyinteresantees" htmlUrl="https://muyinteresante.okdiario.com/"/>
+      </outline>
+      <outline title="Ciencia, tecnología y Otros" text="Ciencia, tecnología y Otros" description="Ciencia, tecnología y Otros" type="folder">
+        <outline title="Hipertextual" text="Hipertextual" description="Hipertextual" type="rss" xmlUrl="http://alt1040.com/feed/" htmlUrl="https://hipertextual.com/"/>
+        <outline title="InfoQ" text="InfoQ" description="InfoQ" type="rss" xmlUrl="http://www.infoq.com/feed/architecture-design" htmlUrl="https://www.infoq.com"/>
+        <outline title="Logistics Viewpoints" text="Logistics Viewpoints" description="Logistics Viewpoints" type="rss" xmlUrl="http://logisticsviewpoints.com/feed/" htmlUrl="https://logisticsviewpoints.com/"/>
+        <outline title="Science News" text="Science News" description="Science News" type="rss" xmlUrl="https://www.sciencenews.org/feed" htmlUrl="https://www.sciencenews.org"/>
+        <outline title="Slashdot" text="Slashdot" description="Slashdot" type="rss" xmlUrl="https://rss.slashdot.org/Slashdot/slashdot" htmlUrl="https://slashdot.org/"/>
+        <outline title="TEDx Talks" text="TEDx Talks" description="TEDx Talks" type="atom" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCsT0YIqwnpJCM-mx7-gSA4Q" htmlUrl="https://www.youtube.com/channel/UCsT0YIqwnpJCM-mx7-gSA4Q"/>
+      </outline>
+      <outline title="Comics" text="Comics" description="Comics" type="folder">
+        <outline title="FoxTrot Comics by Bill Amend" text="FoxTrot Comics by Bill Amend" description="FoxTrot Comics by Bill Amend" type="rss" xmlUrl="https://foxtrot.com/feed/" htmlUrl="https://foxtrot.com"/>
+        <outline title="xkcd" text="xkcd" description="xkcd" type="atom" xmlUrl="https://xkcd.com/atom.xml" htmlUrl="https://xkcd.com/"/>
+      </outline>
+    </outline>
+  </body>
+</opml>
